@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body {
+    font-family: 'Playfair Display', serif;
+    background: #eee2dc;
+    color: #ac3b61
+}
+
+#navigation {
+    background: #edc7b7;
+    opacity: 0.8;
+}
+
+nav a {
+    color: #ac3b61;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+nav .nav-link:hover {
+    color: #123c69;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 2.2em;
+}
+
+#home .jumbotron {
+    
+}
