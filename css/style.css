@@ -2,23 +2,24 @@
 
 body {
     font-family: 'Playfair Display', serif;
-    background: #eee2dc;
-    color: #ac3b61
+    background: #c9d8c5;
+    color: #fff;
+    font-weight: 550;
 }
 
 #navigation {
-    background: #edc7b7;
+    background: #a8b6bf;
     opacity: 0.8;
 }
 
 nav a {
-    color: #ac3b61;
+    color: #7d4627;
     font-weight: 600;
     letter-spacing: 1px;
 }
 
 nav .nav-link:hover {
-    color: #123c69;
+    color: #fff;
 }
 
 h3 {
@@ -27,5 +28,30 @@ h3 {
 }
 
 #home .jumbotron {
-    
+    background: #7d4627 ;
+}
+
+#home .jumbotron h1 {
+    font-style: italic;
+    font-size: 5em;
+    text-decoration: underline;
+    text-decoration-color: #a8b6bf;
+}
+
+#about h5 {
+    color: #7d4627;
+    font-style: italic;
+}
+
+#about .diamond img {
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    transition: 1s clip-path;
+}
+
+#about .diamond img:hover {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+#gallery img {
+
 }
