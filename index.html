@@ -17,22 +17,28 @@
   <div class="full-body">
     <!-- Nav Bar with hamburger toggle -->
     <nav id="navigation" class="navbar navbar-expand-sm sticky-top">
-      <div class="container">
-          <a class="navbar-brand" href="#">Old Joes's</a>
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#home">Old Joes's</a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"><i class="fas fa-bars fa-2x"></i></span></button>
           <div id="navbarNav" class="navbar-collapse">
             <ul class="navbar-nav ml-auto">
                 <li class="navbar-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link right-border" href="#home">Home</a>
                 </li>
                 <li class="navbar-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link right-border" href="#about">About Us</a>
                 </li>
                 <li class="navbar-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link right-border" href="#gallery">Gallery</a>
                 </li>
                 <li class="navbar-item">
-                    <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link right-border" href="#values">Values</a>
+              </li>
+              <li class="navbar-item">
+                <a class="nav-link right-border" href="#specials">Speciality</a>
+            </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
           </div>
@@ -76,21 +82,21 @@
     <!-- Gallery -->
     <section id="gallery">
       <h3 class="text-center">Gallery</h3>
-      <div class="container mt-4">
+      <div class="container-fluid mt-4">
         <div class="row">
           <div class="col">
-            <img class="img-fluid p-1" max-width: 100%; height: auto; src="https://images.pexels.com/photos/143640/pexels-photo-143640.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            <img class="img-fluid m-1" max-width: 100%; height: auto; src="https://images.pexels.com/photos/143640/pexels-photo-143640.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
           </div>
-          <div class="col"><img class="img-fluid p-1" max-width: 100%; height: auto; src="https://images.pexels.com/photos/914388/pexels-photo-914388.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+          <div class="col"><img class="img-fluid m-1" max-width: 100%; height: auto; src="https://images.pexels.com/photos/914388/pexels-photo-914388.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
           </div>
-          <div class="col"><img class="img-fluid p-1" max-width: 100%; height: auto; src="https://images.pexels.com/photos/1402407/pexels-photo-1402407.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+          <div class="col"><img class="img-fluid m-1" max-width: 100%; height: auto; src="https://images.pexels.com/photos/1402407/pexels-photo-1402407.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
           </div>
           <div class="w-100" style="border:0.0px solid #333"></div>
-          <div class="col"><img class="img-fluid p-1" max-width: 100%; height: auto; src="https://images.pexels.com/photos/1855214/pexels-photo-1855214.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+          <div class="col"><img class="img-fluid m-1" max-width: 100%; height: auto; src="https://images.pexels.com/photos/1855214/pexels-photo-1855214.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
           </div>
-          <div class="col"><img class="img-fluid p-1" max-width: 100%; height: auto; src="https://images.pexels.com/photos/1223530/pexels-photo-1223530.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+          <div class="col"><img class="img-fluid m-1" max-width: 100%; height: auto; src="https://images.pexels.com/photos/1223530/pexels-photo-1223530.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
           </div>
-          <div class="col"><img class="img-fluid p-1" max-width: 100%; height: auto; src="https://images.pexels.com/photos/1833321/pexels-photo-1833321.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+          <div class="col"><img class="img-fluid m-1" max-width: 100%; height: auto; src="https://images.pexels.com/photos/1833321/pexels-photo-1833321.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
           </div>
         </div>
       </div>
@@ -109,16 +115,16 @@
     </section>
 
     <!-- signature coffee's -->
-    <section id="coffee">
+    <section id="specials">
       <h3 class="text-center mb-4">Our Speciality Coffee's</h3>
-      <div class="container-fluid">
-        <div class="d-flex flex-row row-hl text-center">
+      <div class="container">
+        <div class="d-flex flex-row row-hl text-center text-dark">
           <div class="card item-hl">
             <img class="img-fluid card-img-top" src="https://images.unsplash.com/photo-1507133750040-4a8f57021571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60" alt="">
             <div class="card-body">
                 <h4 class="card-title">French Vanilla</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
-                <a class="btn btn-success btn-block" href="#">Read More</a>
+                <a class="btn btn-color btn-block text-white" href="#">Order Now</a>
             </div>
           </div>
 
@@ -127,7 +133,7 @@
             <div class="card-body">
                 <h4 class="card-title">Caramel Fudge Latte</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur</p>
-                <a class="btn btn-success btn-block" href="#">Read More</a>
+                <a class="btn btn-color btn-block text-white" href="#">Order Now</a>
             </div>
           </div>
 
@@ -136,7 +142,7 @@
             <div class="card-body">
                 <h4 class="card-title">Iced Frapaccino</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
-                <a class="btn btn-success btn-block" href="#">Read More</a>
+                <a class="btn btn-color btn-block text-white" href="#">Order Now</a>
             </div>
           </div>
 
@@ -147,7 +153,7 @@
     <!-- Contact form -->
     <section id="contact">
       <div class="container my-5">
-          <h3 class="text-center my-4">Subscribe To Our Newsletter</h3>
+          <h2 class="text-center my-4">Subscribe To Our Newsletter</h2>
           <p class="text-center">And gain access to exclusive offers and prize draws</p>
         <form action="">
              <!-- TEXT FIELD GROUPS -->
@@ -160,15 +166,15 @@
                <input class="form-control " type="email" id="email" placeholder="Enter email">
               <small class="form-text text-muted">Your email will not be shared</small>
             </div>
-            <button class="btn btn-primary btn-block" type="submit">Subscribe</button>
+            <button class="btn btn-subscribe btn-block" type="submit">Subscribe</button>
         </form>
       </div>
     </section>
 
     <!-- Footer -->
     <footer>
-      <div class="container-fluid text-center">
-        <h3 class="my-2">Old Joe's &copy 2019</h3>
+      <div class="container-fluid text-center p-3">
+        <h3 class="my-3">Old Joe's &copy 2019</h3>
       </div>
     </footer>
 

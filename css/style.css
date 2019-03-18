@@ -12,10 +12,32 @@ body {
     opacity: 0.8;
 }
 
+.navbar-toggler-icon {
+    color: #000;
+}
+
+.navbar-toggler-icon:hover {
+    color: #fff;
+}
+
 nav a {
     color: #7d4627;
     font-weight: 600;
     letter-spacing: 1px;
+}
+
+.right-border {
+    border-right: #7d4627 solid 1px;
+}
+
+nav .navbar-brand {
+    color: #000;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+nav .navbar-brand:hover {
+    color: #fff;
 }
 
 nav .nav-link:hover {
@@ -25,6 +47,12 @@ nav .nav-link:hover {
 h3 {
     text-decoration: underline;
     font-size: 2.2em;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 2.6em;
+    letter-spacing: 2.5px;
 }
 
 #home .jumbotron {
@@ -53,5 +81,23 @@ h3 {
 }
 
 #gallery img {
+    border: #000 dotted 1px;
+    border-radius: 3px;
+}
 
+#gallery img:hover {
+    opacity: .8;
+}
+
+.btn-color {
+    background: #7d4627;
+}
+
+.btn-subscribe {
+    background: #a8b6bf
+}
+
+.btn-subscribe:hover {
+    background: #000;
+    color: #fff;
 }
