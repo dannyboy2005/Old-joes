@@ -12,12 +12,23 @@ body {
     opacity: 0.8;
 }
 
-.navbar-toggler-icon {
+nav button {
     color: #000;
+    border-radius: 0;
+    border-width: 0; 
+    border-style: none;
+    border-color: #a8b6bf;
+    border-image: 0;
 }
 
-.navbar-toggler-icon:hover {
+nav button:hover {
     color: #fff;
+    border-radius: 0;
+    border-width: 0; 
+    border-style: none;
+    background: #a8b6bf;
+    border-color: #a8b6bf;
+    border-image: 0;
 }
 
 nav a {
