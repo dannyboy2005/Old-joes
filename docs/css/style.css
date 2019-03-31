@@ -19,6 +19,11 @@ nav button {
     border-style: none;
     border-color: #a8b6bf;
     border-image: 0;
+    outline: none;
+}
+
+nav button i {
+    outline: none;
 }
 
 nav button:hover {
@@ -29,6 +34,7 @@ nav button:hover {
     background: #a8b6bf;
     border-color: #a8b6bf;
     border-image: 0;
+    outline: none;
 }
 
 nav a {
